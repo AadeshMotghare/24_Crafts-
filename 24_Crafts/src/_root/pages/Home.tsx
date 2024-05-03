@@ -1,4 +1,3 @@
-import React from 'react'
 import HomenavBar from '../../components/HomenavBar'
 
 const Home = () => {

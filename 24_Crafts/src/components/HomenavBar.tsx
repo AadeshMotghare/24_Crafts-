@@ -128,10 +128,7 @@ const HomenavBar: React.FC = () => {
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
-      color="black" // Set navbar color to black
-      dark // Set navbar theme to dark
-      className="w-full" // Make navbar full-width
-    >
+      className="w-full">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
